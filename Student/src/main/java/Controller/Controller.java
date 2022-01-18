@@ -18,7 +18,7 @@ import Service.StudentService;
 import Service.GroupService;
 
 @RestController
-@CrossOrigin(origins = {"http://kube-frontend:30004", "http://kube-mysql"})
+@CrossOrigin(origins = {"http://localhost:30004", "http://kube-mysql"})
 @RequestMapping(value = "/api")
 public class Controller {
 
